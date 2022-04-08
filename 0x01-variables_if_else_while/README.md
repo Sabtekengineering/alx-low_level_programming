@@ -1,1 +1,1 @@
-my readme
+It pays to serve God
