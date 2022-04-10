@@ -1,33 +1,29 @@
 nclude <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* More headers goes there */
 
 /**
- * main - entry point
- * Return: Always 0 (success)
- */
-
-/* betty style doc for function main goes there */
+ *  * main - Entry point
+ *   *
+ *    * Return: Always 0 (Success/correct)
+ *     */
 int main(void)
 {
 	int n;
-	srand(time(0))
-		n = rand() - RAND_MAX /2;
-
-	if(n < 0)
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n == 0)
 	{
-		printf("%d is negative\n", n);
+		printf("%i is zero\n", n);
 	}
-	if(n == 0)
+	else if (n < 0)
 	{
-		printf("%d is zer \n", n);
+		printf("%i is negative\n", n);
 	}
-	if(n > 0)
+	else
 	{
-		printf("%d is positive\n", n);
+		printf("%i is positive\n", n);
 	}
-	return(0)
+	return (0);
 }
-
 
