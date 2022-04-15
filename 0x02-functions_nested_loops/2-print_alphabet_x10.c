@@ -1,9 +1,12 @@
 #include "main.h"
+
 /**
- * printt_alphabet_x10 - prints the alphabet in lowercase 10 times.
+ * print_alphabet_x10 - prints the alphabets 10x
  *
- * Return: Always 0.
+ * Description: prints 10 times
+ *Return: Always(0).
  */
+
 void print_alphabet_x10(void)
 {
 
@@ -23,4 +26,4 @@ ch++;
 alphabet_count++;
 _putchar('\n');
 }
-}
+}}
