@@ -6,13 +6,21 @@
  */
 void print_alphabet_x10(void)
 {
-	int i;
-	char c;
 
-	for (i = 0; i < 10; i++)
-	{
-		for (c = 'a'; c <= 'z' ; c++)
-			_putchar(c);
-		_putchar('\n');
-	}
+int alphabet_count = 0;
+{
+int alphabet_count = 0;
+
+while (alphabet_count < 10)
+{
+char ch = 'a';
+
+while (ch <= 'z')
+{
+_putchar(ch);
+ch++;
+}
+alphabet_count++;
+_putchar('\n');
+}
 }
