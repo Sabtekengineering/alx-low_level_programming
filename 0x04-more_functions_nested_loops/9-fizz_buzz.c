@@ -20,6 +20,7 @@ if (x % 5 == 0)
 {
 printf("Buzz");
 }
+}
 else
 {
 printf("%d", x);
@@ -28,6 +29,7 @@ if (x != 100)
 {
 putchar(' ');
 }
+{
 putchar('\n');
 return (0);
 }
