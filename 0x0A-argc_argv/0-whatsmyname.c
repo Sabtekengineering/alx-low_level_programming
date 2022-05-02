@@ -2,17 +2,10 @@
 #include <stdio.h>
 
 /**
-<<<<<<< HEAD
  * main - Prints the name of the program
- *  @argc: Number of command line arguments
- *  @argv: Array name
- *  Return: 0
-=======
- *  main - Prints the name of the program
- *  @argc: Number of command line arguments
- *   @argv: Array name
- *   Return: 0
->>>>>>> 4f078dad992004e13d83549d1565316f4d578dde
+ * @argc: Number of command line arguments
+ * @argv: Array name
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
